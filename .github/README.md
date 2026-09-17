@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-arc-region-switch`](https://www.npmjs.com/package/@aws-sdk/client-arc-region-switch/v/3.1133.0).
+[`@aws-sdk/client-arc-region-switch`](https://www.npmjs.com/package/@aws-sdk/client-arc-region-switch/v/3.1134.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-arc-region-switch - [https://cloud-sdk-builds.github.io/?sdk=client-arc-region-switch](https://cloud-sdk-builds.github.io/?sdk=client-arc-region-switch)
-- @aws-sdk/client-arc-region-switch v3.1133.0 - [https://cloud-sdk-builds.github.io/?sdk=client-arc-region-switch&version=3.1133.0](https://cloud-sdk-builds.github.io/?sdk=client-arc-region-switch&version=3.1133.0)
+- @aws-sdk/client-arc-region-switch v3.1134.0 - [https://cloud-sdk-builds.github.io/?sdk=client-arc-region-switch&version=3.1134.0](https://cloud-sdk-builds.github.io/?sdk=client-arc-region-switch&version=3.1134.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1133.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1134.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-A2xF17QpEskMDy4+nPUv7PCs36D66vf7gPN/eUcVdU/G9KIELJ9+6aBXF9BQGx8Y
+sha384-cEOsKhuXbfvb/XU7ig02UnccJdAF2mYuv46UNpi+dWAMh7dn2HmOwG5v4KLn5VsL
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-arc-region-switch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1133.0/index.min.mjs"
+            "@aws-sdk/client-arc-region-switch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1134.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1133.0/index.min.mjs": "sha384-A2xF17QpEskMDy4+nPUv7PCs36D66vf7gPN/eUcVdU/G9KIELJ9+6aBXF9BQGx8Y"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1134.0/index.min.mjs": "sha384-cEOsKhuXbfvb/XU7ig02UnccJdAF2mYuv46UNpi+dWAMh7dn2HmOwG5v4KLn5VsL"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-arc-region-switch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1133.0/index.min.mjs"
+                        "@aws-sdk/client-arc-region-switch": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1134.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1133.0/index.min.mjs": "sha384-A2xF17QpEskMDy4+nPUv7PCs36D66vf7gPN/eUcVdU/G9KIELJ9+6aBXF9BQGx8Y"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-arc-region-switch@3.1134.0/index.min.mjs": "sha384-cEOsKhuXbfvb/XU7ig02UnccJdAF2mYuv46UNpi+dWAMh7dn2HmOwG5v4KLn5VsL"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1133.0`)
+* Always pin to a specific version (`@3.1134.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-arc-region-switch/blob/refs/tags/3.1133.0/LICENSE
+https://github.com/cloud-sdk-builds/client-arc-region-switch/blob/refs/tags/3.1134.0/LICENSE
 ```
 
 ---
